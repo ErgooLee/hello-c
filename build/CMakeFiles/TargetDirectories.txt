@@ -1,0 +1,3 @@
+/Users/chao.li14/demos/hello-c/build/CMakeFiles/helloworld.dir
+/Users/chao.li14/demos/hello-c/build/CMakeFiles/edit_cache.dir
+/Users/chao.li14/demos/hello-c/build/CMakeFiles/rebuild_cache.dir
