@@ -7,7 +7,7 @@
 #include <sys/socket.h>
 
 #define SERVER_IP "127.0.0.1"
-#define SERVER_PORT 8080
+#define SERVER_PORT 8888
 
 int main() {
     struct sockaddr_in server_addr;
