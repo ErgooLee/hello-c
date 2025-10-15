@@ -12,6 +12,8 @@ add_executable(socket_client socket_client.c)
 
 add_executable(pipe pipe.c)
 
+add_executable(fifo FIFO.c)
+
 if(LINUX)
     add_executable(socket_server_epoll socket_server_epoll.c)
 endif()
