@@ -14,6 +14,10 @@ add_executable(pipe pipe.c)
 
 add_executable(fifo FIFO.c)
 
+add_executable(msg_queue_sender msg_queue_sender.c)
+
+add_executable(msg_queue_receiver msg_queue_receiver.c)
+
 if(LINUX)
     add_executable(socket_server_epoll socket_server_epoll.c)
 endif()
