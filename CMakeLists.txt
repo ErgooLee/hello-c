@@ -18,6 +18,14 @@ add_executable(msg_queue_sender msg_queue_sender.c)
 
 add_executable(msg_queue_receiver msg_queue_receiver.c)
 
+add_executable(sem_reader sem_reader.c)
+
+add_executable(sem_writer sem_writer.c)
+
+add_executable(unnamed_sem unnamed_sem.c)
+
+add_executable(named_sem named_sem.c)
+
 if(LINUX)
     add_executable(socket_server_epoll socket_server_epoll.c)
 endif()
