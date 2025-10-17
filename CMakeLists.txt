@@ -26,6 +26,15 @@ add_executable(unnamed_sem unnamed_sem.c)
 
 add_executable(named_sem named_sem.c)
 
+add_executable(mmap_writer mmap_writer.c)
+
+add_executable(mmap_reader mmap_reader.c)
+
+add_executable(shm_reader shm_reader.c)
+
+add_executable(shm_writer shm_writer.c)
+
+
 if(LINUX)
     add_executable(socket_server_epoll socket_server_epoll.c)
 endif()
